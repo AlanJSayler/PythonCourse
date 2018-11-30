@@ -1,0 +1,10 @@
+
+1) To get prof name: Connect to "https://www.eecs.mit.edu/people/faculty-advisors"
+   and find "span" tag with attribute "class=field-content card-title".
+2) connect to "https://arxiv.org/search/?query=prof_name&searchtype=author" and look
+   for "p" tag with attributes "title is-5 mathjax" and print the title.
+
+
+To run the program:
+ - install beautifulsoup pkg.
+ - run as "python3.7 scrape_mit_cse_pubs.py"
